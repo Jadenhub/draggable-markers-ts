@@ -61,7 +61,7 @@ export default class Layout extends React.Component<LayoutProps, LayoutState> {
     e.preventDefault();
     
     const el = e.target as HTMLInputElement
-    const value: string | null = el.getAttribute('value')      
+    const value: string | null = el.getAttribute('data-value')      
     this.setState({
       isDragging: true,
       target: (value) ? value : undefined,
