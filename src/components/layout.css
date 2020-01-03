@@ -1,0 +1,37 @@
+#root {
+  /* margin: 2rem 1.5rem; */
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: 20px;
+  font: 'Arial'
+}
+
+.layout {
+  background-color: aqua;
+  background: #fff;
+  border-radius: 7px;
+  border: 3px solid grey;
+  position:relative;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.layout img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.map-marker {
+  position: absolute;
+}
+
+.home{
+  margin: auto;
+  line-height: 80px;
+}
+
+.title {
+  line-height: 60px;
+}
